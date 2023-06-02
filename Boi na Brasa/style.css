@@ -351,9 +351,12 @@ main{
     width: 300px;
 }
 
-#mensagem{
-    height: 30px;
+#cmsg{
+    display: block;
+    margin: 8px auto;
+    
 }
+
 
 #submit{
     background-color: #000000;

@@ -12,7 +12,9 @@
     <header>
         <div class="cabeçalhologo">
 
-            <video src="Video/Churrasco e Cerveja - Steakhouse - Logo (1500 × 400 px).mp4" autoplay muted loop></video>
+            <figure>
+                <img src="imagens/BoinaBrasaLogo.gif" alt="logoBoinaBrasa">
+            </figure>
             
         </div>
         
@@ -46,7 +48,7 @@
         
                         <form>
                             <label> Nome: </label><br>
-                            <input type="text" placeholder="Insira seu Nome"><br><br>
+                            <input type="text" placeholder="Insira seu Nome" maxlength="40"><br><br>
         
                             <label> Telefone de Contato: </label><br>
                             <input type="tel" placeholder="Insira seu telefone com DDD ex: 6499999-9999" size="12" maxlength="12"><br><br>
@@ -55,7 +57,7 @@
                             <input type="datetime-local"><br><br>
         
                             <label> Mensagem: </label><br>
-                            <input id="mensagem" type="text" placeholder="Mensagem"><br><br>
+                            <textarea name="" id="cmsg" cols="38" rows="10" maxlength="400" placeholder="Escreva Sua Mensagem"></textarea>
                             <input id="submit" type="submit" value="Enviar">
                         </form>
                 </article>
